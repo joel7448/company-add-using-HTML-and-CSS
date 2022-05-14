@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+          display: grid;
+          min-height: 100vh;
+          place-content: center;
+         
+      }  
+.image{
+    height:200px;
+    width:350px;
+    background-color: #733e92;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    
+   
+}
+img{
+    height: 200px;
+    width:350px;
+    object-fit: cover;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    object-position: left top;
+    mix-blend-mode:luminosity;
+    
+}
+.contents{
+    height: 550px;
+    width: 350px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-color: #1c1938;
+    padding-top: 10px;
+}
+h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 2px;
+ 
+}
+span{
+    color:#a065cf;
+}
+p{
+    padding: 7px;
+  margin-left:40px ;
+  margin-right: 40px;
+    color: #908ea4;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    line-height: 30px;
+}
+.subs{
+    margin-top: 0px;
+}
+@media(min-width:814px){
+    body{
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: center;
+    }
+    .contents{
+       
+      height: 290px;
+      width:480px;
+      border-radius: 0px;
+       border-top-left-radius:10px ;
+       border-bottom-left-radius: 10px;
+
+      
+      
+    }
+    .image{
+        height: 300px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+width:500px;
+    }
+    img{
+        border-radius: 0px;
+        height: 300px;
+        width:500px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+    p{
+        font-size:15px;
+        text-align: left;
+        
+    }
+   section{
+       width:450px;
+       height:50px;
+       display: flex;
+       flex-direction: rows;
+       padding: 10px;  
+       margin: 10px;  
+       padding-right: 30px;  
+       place-content: center;
+       
+   } 
+   .subs{
+       font-size:15px;
+      
+            
+       
+   }
+   .contents>h2{
+       padding-left: 45px;
+       text-align: left;
+   }
+
+ 
+
+}
+    </style>
+   <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&family=Water+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="image">
+<img src="./image-header-mobile.jpg" alt="" srcset="" />
+</div >
+<div class="contents">
+<h2>Get <span>insights</span> that help your business grow.</h2>
+<p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+<section> 
+    <div>
+    <h2 class="subs">10k+</h2>
+<p class="subs"  >COMPANIES</p></div>
+    
+    <div>
+<h2 class="subs">314 </h2>
+<p class="subs">TEMPLATES</p></div>
+   
+  <div> 
+<h2 class="subs">12M+</h2>
+<p class="subs">QUERIES</p>
+</div>
+</section>
+</div>
+    
+</body>
+</html>
